@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berries - Premium Luxury Café | Durg</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Berries - Premium luxury café in Durg offering artisan coffee, gourmet desserts, and an elegant dining experience. Reserve your table today!">
+    <meta name="keywords" content="Berries cafe, luxury cafe Durg, premium coffee Durg, best cafe in Durg, gourmet desserts">
+    <meta property="og:title" content="Berries - Premium Luxury Café | Durg">
+    <meta property="og:description" content="Experience luxury in every sip at Berries, Durg's finest café">
+    <meta property="og:url" content="https://berriescafe.com">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🍓</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Elements -->
+    <div class="floating-objects">
+        <div class="float-item berry-1">🍓</div>
+        <div class="float-item berry-2">🫐</div>
+        <div class="float-item berry-3">🍒</div>
+        <div class="float-item coffee-1">☕</div>
+        <div class="float-item sparkle-1">✨</div>
+        <div class="float-item sparkle-2">💫</div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <h1 class="preloader-text">Berries</h1>
+            <div class="loading-bar"></div>
+            <p class="loading-text">Crafting Excellence...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🍓</span>
+                <span class="logo-text">Berries</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">Our Story</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="reserve-btn">Reserve Table</button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-animation"></div>
+        <div class="hero-content">
+            <div class="hero-text" data-scroll>
+                <h1 class="hero-title">
+                    <span class="title-line">Experience</span>
+                    <span class="title-line highlight">Luxury</span>
+                    <span class="title-line">in Every Sip</span>
+                </h1>
+                <p class="hero-subtitle">Premium artisan coffee & delectable treats in the heart of Durg</p>
+                <div class="hero-buttons">
+                    <button class="cta-primary" onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})">Explore Menu</button>
+                    <button class="cta-secondary">
+                        <span>Watch Story</span>
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image" data-scroll>
+                <div class="image-container">
+                    <div class="image-frame"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to Explore</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-scroll>
+                    <div class="image-wrapper">
+                        <div class="floating-frame frame-1"></div>
+                        <div class="floating-frame frame-2"></div>
+                    </div>
+                </div>
+                <div class="about-content" data-scroll>
+                    <span class="section-tag">Our Story</span>
+                    <h2 class="section-title">Where Passion Meets <span class="gradient-text">Perfection</span></h2>
+                    <p class="about-text">At Berries, we believe every cup tells a story. From hand-selected beans to artisanal brewing techniques, we craft experiences that tantalize your senses and warm your soul.</p>
+                    <p class="about-text">Nestled in the vibrant heart of Durg, our café is a sanctuary for coffee connoisseurs and dessert enthusiasts alike, offering a premium escape from the ordinary.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3 class="stat-number" data-count="50">0</h3>
+                            <p class="stat-label">Premium Blends</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number" data-count="1000">0</h3>
+                            <p class="stat-label">Happy Customers</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number" data-count="5">0</h3>
+                            <p class="stat-label">Star Rating</p>
+                        </div>
+                    </div>
+                    <button class="learn-more-btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card" data-scroll>
+                    <div class="feature-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3>Artisan Coffee</h3>
+                    <p>Expertly crafted beverages using the finest beans from around the world</p>
+                </div>
+                <div class="feature-card" data-scroll>
+                    <div class="feature-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <h3>Gourmet Desserts</h3>
+                    <p>Indulge in our signature berry-infused pastries and decadent treats</p>
+                </div>
+                <div class="feature-card" data-scroll>
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Fresh & Organic</h3>
+                    <p>Locally sourced, organic ingredients for a guilt-free experience</p>
+                </div>
+                <div class="feature-card" data-scroll>
+                    <div class="feature-icon">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3>Luxury Ambiance</h3>
+                    <p>Elegant interiors designed for comfort and sophisticated relaxation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header" data-scroll>
+                <span class="section-tag">Delicious Offerings</span>
+                <h2 class="section-title">Our Signature <span class="gradient-text">Menu</span></h2>
+            </div>
+            
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-tab="coffee">Coffee</button>
+                <button class="tab-btn" data-tab="desserts">Desserts</button>
+                <button class="tab-btn" data-tab="beverages">Beverages</button>
+                <button class="tab-btn" data-tab="snacks">Snacks</button>
+            </div>
+
+            <div class="menu-content">
+                <!-- Coffee Tab -->
+                <div class="tab-panel active" data-panel="coffee">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image coffee-img-1">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Berry Cappuccino</h3>
+                                    <span class="price">₹249</span>
+                                </div>
+                                <p class="menu-desc">Rich espresso with velvety foam and berry essence</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Signature</span>
+                                    <span class="tag">Hot</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image coffee-img-2">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Iced Rose Latte</h3>
+                                    <span class="price">₹279</span>
+                                </div>
+                                <p class="menu-desc">Creamy latte infused with delicate rose syrup</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Premium</span>
+                                    <span class="tag">Cold</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image coffee-img-3">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Caramel Macchiato</h3>
+                                    <span class="price">₹229</span>
+                                </div>
+                                <p class="menu-desc">Layered perfection with caramel drizzle</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Popular</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image coffee-img-4">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Strawberry Espresso</h3>
+                                    <span class="price">₹299</span>
+                                </div>
+                                <p class="menu-desc">Bold espresso with fresh strawberry notes</p>
+                                <div class="menu-tags">
+                                    <span class="tag">New</span>
+                                    <span class="tag">Signature</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts Tab -->
+                <div class="tab-panel" data-panel="desserts">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image dessert-img-1">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Triple Berry Cheesecake</h3>
+                                    <span class="price">₹349</span>
+                                </div>
+                                <p class="menu-desc">Creamy cheesecake with mixed berry compote</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Best Seller</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image dessert-img-2">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Rose Macarons</h3>
+                                    <span class="price">₹199</span>
+                                </div>
+                                <p class="menu-desc">Delicate French macarons with rose filling</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Premium</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image dessert-img-3">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Strawberry Tart</h3>
+                                    <span class="price">₹279</span>
+                                </div>
+                                <p class="menu-desc">Buttery tart with fresh strawberry topping</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Signature</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image dessert-img-4">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Chocolate Truffle Cake</h3>
+                                    <span class="price">₹329</span>
+                                </div>
+                                <p class="menu-desc">Decadent chocolate layers with ganache</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Popular</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Beverages Tab -->
+                <div class="tab-panel" data-panel="beverages">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image beverage-img-1">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Berry Smoothie Bowl</h3>
+                                    <span class="price">₹299</span>
+                                </div>
+                                <p class="menu-desc">Thick smoothie with fresh berry toppings</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Healthy</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image beverage-img-2">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Pink Lemonade</h3>
+                                    <span class="price">₹149</span>
+                                </div>
+                                <p class="menu-desc">Refreshing lemonade with strawberry twist</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Refreshing</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image beverage-img-3">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Matcha Rose Latte</h3>
+                                    <span class="price">₹259</span>
+                                </div>
+                                <p class="menu-desc">Japanese matcha with rose essence</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Premium</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image beverage-img-4">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Blueberry Mojito</h3>
+                                    <span class="price">₹199</span>
+                                </div>
+                                <p class="menu-desc">Fresh mint with muddled blueberries</p>
+                                <div class="menu-tags">
+                                    <span class="tag">New</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Snacks Tab -->
+                <div class="tab-panel" data-panel="snacks">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image snack-img-1">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Croissant Sandwich</h3>
+                                    <span class="price">₹229</span>
+                                </div>
+                                <p class="menu-desc">Buttery croissant with premium fillings</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Savory</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image snack-img-2">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Berry Scones</h3>
+                                    <span class="price">₹179</span>
+                                </div>
+                                <p class="menu-desc">Freshly baked with mixed berries</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Fresh</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image snack-img-3">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Avocado Toast</h3>
+                                    <span class="price">₹249</span>
+                                </div>
+                                <p class="menu-desc">Smashed avocado on artisan sourdough</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Healthy</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-scroll>
+                            <div class="menu-item-image snack-img-4">
+                                <div class="menu-overlay">
+                                    <button class="quick-view">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-header">
+                                    <h3>Cheese Platter</h3>
+                                    <span class="price">₹399</span>
+                                </div>
+                                <p class="menu-desc">Artisanal cheese selection with crackers</p>
+                                <div class="menu-tags">
+                                    <span class="tag">Premium</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online Ordering Section -->
+    <section class="online-ordering">
+        <div class="container">
+            <div class="ordering-content" data-scroll>
+                <div class="ordering-text">
+                    <span class="section-tag">Order Now</span>
+                    <h2 class="section-title">Get Berries <span class="gradient-text">Delivered</span></h2>
+                    <p class="ordering-desc">Enjoy our premium offerings from the comfort of your home. Quick, easy, and delicious!</p>
+                    <div class="delivery-partners">
+                        <a href="#" class="partner-btn swiggy">
+                            <i class="fas fa-motorcycle"></i>
+                            Order on Swiggy
+                        </a>
+                        <a href="#" class="partner-btn zomato">
+                            <i class="fas fa-utensils"></i>
+                            Order on Zomato
+                        </a>
+                        <a href="tel:+919876543210" class="partner-btn call">
+                            <i class="fas fa-phone"></i>
+                            Call: +91 98765 43210
+                        </a>
+                    </div>
+                </div>
+                <div class="ordering-image">
+                    <div class="delivery-animation">
+                        <div class="delivery-bike">🛵</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header" data-scroll>
+                <span class="section-tag">Visual Journey</span>
+                <h2 class="section-title">Moments of <span class="gradient-text">Indulgence</span></h2>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item tall gallery-1" data-scroll>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Artisan Coffee</h3>
+                            <p>Perfectly Brewed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item wide gallery-2" data-scroll>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Luxury Interior</h3>
+                            <p>Elegant Ambiance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-3" data-scroll>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Berry Desserts</h3>
+                            <p>Sweet Perfection</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-4" data-scroll>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Signature Drinks</h3>
+                            <p>Crafted Excellence</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item wide gallery-5" data-scroll>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Cozy Corners</h3>
+                            <p>Intimate Spaces</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-6" data-scroll>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Fresh Pastries</h3>
+                            <p>Daily Baked</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-scroll>
+                <span class="section-tag">What They Say</span>
+                <h2 class="section-title">Customer <span class="gradient-text">Love</span></h2>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">"Berries is an absolute gem in Durg! The ambiance is so luxurious and the coffee is simply divine. Their berry cheesecake is to die for!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">P</div>
+                                <div class="author-info">
+                                    <h4>Priya Sharma</h4>
+                                    <p>Coffee Enthusiast</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">"A perfect blend of sophistication and comfort. Every visit feels special. The staff is incredibly attentive and the menu is innovative."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">R</div>
+                                <div class="author-info">
+                                    <h4>Rahul Verma</h4>
+                                    <p>Food Blogger</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                            <p class="testimonial-text">"Best café experience in the city! The attention to detail in everything from the décor to the presentation is outstanding. Highly recommended!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">A</div>
+                                <div class="author-info">
+                                    <h4>Anjali Mehta</h4>
+                                    <p>Regular Customer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info" data-scroll>
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Visit Us <span class="gradient-text">Today</span></h2>
+                    <p class="contact-desc">Experience the magic of Berries. We're open and ready to serve you the finest coffee and desserts in town.</p>
+                    
+                    <div class="info-items">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Location</h4>
+                                <p>Nehru Nagar, Durg, Chhattisgarh</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Phone</h4>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Hours</h4>
+                                <p>Mon-Sun: 9:00 AM - 11:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <p>hello@berriescafe.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form" data-scroll>
+                    <form class="reservation-form" id="reservationForm">
+                        <h3>Reserve a Table</h3>
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="time" name="time" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select name="guests" required>
+                                <option value="">Number of Guests</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5+">5+ Guests</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Special Requests (Optional)" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Confirm Reservation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🍓</span>
+                        <span class="logo-text">Berries</span>
+                    </div>
+                    <p class="footer-tagline">Where every moment is crafted with love and luxury</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Catering</a></li>
+                        <li><a href="#">Private Events</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe for exclusive offers</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Berries Café. All rights reserved. | Crafted with ❤️ in Durg</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions">
+        <a href="https://wa.me/919876543210" class="fab-whatsapp" title="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+919876543210" class="fab-call" title="Call Us">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
